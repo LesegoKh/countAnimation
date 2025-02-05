@@ -1,0 +1,34 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-color: cadetblue;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+}
+
+.counter-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 50px;
+    text-align: center;
+}
+
+.counter {
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+@media(max-width:500px) {
+    body {
+        flex-direction: column;
+    }
+}
